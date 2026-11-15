@@ -216,3 +216,97 @@ ion-button:active:not([disabled]),
     scroll-behavior: auto !important;
   }
 }
+
+
+/* CINÉARCHIVE — editorial cinema archive design system */
+:root {
+  --ca-paper: #f3efe6;
+  --ca-paper-raised: #fbf8f1;
+  --ca-ink: #252522;
+  --ca-muted: #77736b;
+  --ca-rule: rgba(37, 37, 34, 0.16);
+  --ca-accent: #d94a32;
+  --ion-color-primary: #d94a32;
+  --ion-color-primary-rgb: 217, 74, 50;
+  --ion-color-primary-contrast: #fffaf4;
+  --ion-color-primary-contrast-rgb: 255, 250, 244;
+  --ion-color-primary-shade: #bf412c;
+  --ion-color-primary-tint: #dd5c47;
+}
+html.light, body.light {
+  --ion-background-color: var(--ca-paper);
+  --ion-background-color-rgb: 243, 239, 230;
+  --ion-text-color: var(--ca-ink);
+  --ion-text-color-rgb: 37, 37, 34;
+  --ion-toolbar-background: var(--ca-paper);
+  --ion-card-background: var(--ca-paper-raised);
+  --ion-item-background: var(--ca-paper);
+  --ion-border-color: var(--ca-rule);
+  --app-bg: var(--ca-paper);
+  --app-bg-secondary: var(--ca-paper-raised);
+  --app-text: var(--ca-ink);
+  --app-border: var(--ca-rule);
+  --app-muted: var(--ca-muted);
+  --app-shell-surface: rgba(243, 239, 230, 0.96);
+  --app-shell-border: var(--ca-rule);
+  --ion-tab-bar-color: var(--ca-muted);
+  --ion-tab-bar-color-selected: var(--ca-accent);
+  --ion-color-step-50: #eee9df;
+  --ion-color-step-100: #e7e1d6;
+  --ion-color-step-150: #ded8cd;
+  --ion-color-step-200: #d5cfc4;
+}
+html.light body, body.light {
+  font-family: 'Outfit', sans-serif;
+  background: var(--ca-paper);
+  color: var(--ca-ink);
+}
+html.light ion-header ion-toolbar, body.light ion-header ion-toolbar {
+  --background: var(--ca-paper);
+  border-bottom: 1px solid var(--ca-rule);
+  backdrop-filter: none;
+}
+html.light ion-header ion-title, body.light ion-header ion-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+html.light ion-tabs ion-tab-bar[slot="bottom"], body.light ion-tabs ion-tab-bar[slot="bottom"] {
+  --background: var(--ca-paper);
+  backdrop-filter: none;
+  border-top: 1px solid var(--ca-rule);
+}
+html.light ion-tabs ion-tab-button.tab-selected, body.light ion-tabs ion-tab-button.tab-selected {
+  background: transparent;
+}
+html.light ion-tabs ion-tab-button, body.light ion-tabs ion-tab-button {
+  --color: #817b71;
+  --color-selected: var(--ca-accent);
+}
+html.light ion-card, body.light ion-card {
+  box-shadow: none;
+  border: 1px solid var(--ca-rule);
+  border-radius: 3px;
+}
+html.light ion-item, body.light ion-item {
+  --border-color: var(--ca-rule);
+}
+html.light .quick-log-circle, body.light .quick-log-circle {
+  background: var(--ca-accent);
+  color: #fffaf4;
+  box-shadow: none;
+}
+.cinearchive-wordmark {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+.cinearchive-kicker {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ca-muted, var(--ion-color-medium));
+}
