@@ -1955,7 +1955,7 @@ export class UserDataService {
       excludeLanguages: [],
       fadeWatched: false,
       defaultMediaTab: 'movies',
-      primaryColor: 'green',
+      primaryColor: 'red',
       tmdbApiKey: '',
       autoCheckUpdates: true,
     };
