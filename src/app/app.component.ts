@@ -8,12 +8,12 @@ import { UserDataService } from './services/user-data.service';
 export function applyPrimaryColor(color: 'green' | 'red'): void {
   const root = document.documentElement;
   if (color === 'red') {
-    root.style.setProperty('--ion-color-primary', '#d90429');
-    root.style.setProperty('--ion-color-primary-rgb', '217,4,41');
-    root.style.setProperty('--ion-color-primary-contrast', '#ced4da');
-    root.style.setProperty('--ion-color-primary-contrast-rgb', '206,212,218');
-    root.style.setProperty('--ion-color-primary-shade', '#bf0324');
-    root.style.setProperty('--ion-color-primary-tint', '#dd1e3e');
+    root.style.setProperty('--ion-color-primary', '#d94a32');
+    root.style.setProperty('--ion-color-primary-rgb', '217,74,50');
+    root.style.setProperty('--ion-color-primary-contrast', '#fffaf4');
+    root.style.setProperty('--ion-color-primary-contrast-rgb', '255,250,244');
+    root.style.setProperty('--ion-color-primary-shade', '#bf412c');
+    root.style.setProperty('--ion-color-primary-tint', '#dd5c47');
   } else {
     root.style.setProperty('--ion-color-primary', '#76c893');
     root.style.setProperty('--ion-color-primary-rgb', '118,200,147');
