@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.shafi.openmovietracker',
-  appName: 'Open Movie Tracker',
+  appName: 'CINÉARCHIVE',
   webDir: 'www',
   bundledWebRuntime: false,
 };
